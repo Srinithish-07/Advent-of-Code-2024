@@ -22,6 +22,7 @@ for i in range(len(grid)):
 
     if (is_increasing or is_decreasing) and is_safe:
         count += 1
+        
     # if(is_increasing or is_decreasing) and is_safe:
     #     print(f"row : {i+1} is safe")
     # else:
