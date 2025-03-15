@@ -8,3 +8,4 @@ right.sort()
 distance_sum = sum(abs(l-r) for l,r in zip(left,right))
 print(distance_sum)
 
+
