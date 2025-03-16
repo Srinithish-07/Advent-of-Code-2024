@@ -28,5 +28,4 @@ for i in range(len(grid)):
     # else:
     #     print(f"row : {i+1} is unsafe")        
 
-
 print(count)
