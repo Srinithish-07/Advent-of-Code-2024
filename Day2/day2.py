@@ -14,7 +14,6 @@ for i in range(len(grid)):
     is_decreasing = all(row[j] > row[j+1] for j in range(len(row)-1))
     is_safe = True
 
-    
     for j in range(len(row)-1):
         diff = abs(row[j] - row[j+1])
         if diff < 1 or diff > 3:
