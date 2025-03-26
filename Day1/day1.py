@@ -10,5 +10,3 @@ print(distance_sum)
 
 
 
-
-
