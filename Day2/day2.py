@@ -7,6 +7,7 @@ grid = [
     [1, 3, 6, 7, 9]
 ]
 count = 0
+
 for i in range(len(grid)):
     row = grid[i]
     is_increasing = all(row[j] < row[j+1] for j in range(len(row)-1))
