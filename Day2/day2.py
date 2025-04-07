@@ -6,8 +6,8 @@ grid = [
     [8, 6, 4, 4, 1],
     [1, 3, 6, 7, 9]
 ]
-count = 0
 
+count = 0
 
 for i in range(len(grid)):
     row = grid[i]
